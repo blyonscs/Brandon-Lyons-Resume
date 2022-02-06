@@ -604,12 +604,23 @@ justify-content: center;
     grid-template-rows: 1fr 1fr;
     }
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:1000px){
     .projects__c{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     }
+    .project__card{
+        height:600px;
+        width: 450px;
+        }
+}
+@media screen and (max-width:750px){
+
+    .project__card{
+        height:400px;
+        width: 300px;
+        }
 }
 .contact{
     background: whitesmoke;

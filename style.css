@@ -531,18 +531,20 @@ transform-style: preserve-3d;
     height: 100%;
     padding: 75px 0px;
 }
-
+.project__contain{
+    padding:30px;
+}
 .projects__container{
     align-items: center;
-    flex-direction: column;
     text-align: center;
+    justify-content: center;
     max-width: 1500px;
     margin: 0 auto; 
     height: 100%;
    padding: 30px 100px;
 }
 .project__card{
-    margin:15px;
+    margin: 0 auto;
     height:450px;
     width: 300px;
     border-radius: 10px;
@@ -593,8 +595,9 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 30px 100px;
 }
-@media screen and (max-width:1400px){
+@media screen and (max-width:1475px){
     .projects__c{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -696,5 +699,22 @@ justify-content: center;
     color: royalblue;
     transition: all 0.5s ease-in;
 }
-
+@media screen and (max-width: 880px){
+    .contact__info{
+        font-size: 20px;
+        font-weight: bolder;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    .contact{
+        background: whitesmoke;
+        background: linear-gradient(to top grey, black);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 35px 0px;
+    }
+}
 

@@ -100,21 +100,21 @@ height: 60px;
     width: 100%;
 }
 .button{
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 10px 20px ;
-height: 100%;
-width: 100%;
-border: none;
-outline: none;
-border-radius: 5px;
-background: #6688CC;
-background: -webkit-linear-gradient(to right orange, orangered, red );
-background: linear-gradient(to right orange, orangered, red );
-color: white;
-transition: all 0.3s ease;
-font-size: 25px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px ;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #6688CC;
+    background: -webkit-linear-gradient(to right orange, orangered, red );
+    background: linear-gradient(to right orange, orangered, red );
+    color: white;
+    transition: all 0.3s ease;
+    font-size: 25px;
 }
 .button:hover{
     color: lightgray;
@@ -166,11 +166,11 @@ font-size: 25px;
        text-align: center;
     }
     .navbar__toggle .bar{
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out;
-    background: black;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background: black;
     }
     .navbar__item{
         width: 100%;
@@ -254,9 +254,9 @@ font-size: 25px;
     font-weight: bold;
 }
 .overview{
-  padding-top: 20px;;
-  color: black;
-  font-size: 20px;
+    padding-top: 20px;;
+    color: black;
+    font-size: 20px;
 
 }
 .highlight{
@@ -339,24 +339,24 @@ font-size: 25px;
     z-index: 1;
 }
 .imgBox{
-position: flex;
-width: 100%;
-height: 100%;
-z-index:99;
-transform-origin: left;
-transform-style: preserve-3d;
-background: black;
-transition: 1s;
+    position: flex;
+    width: 100%;
+    height: 100%;
+    z-index:99;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background: black;
+    transition: 1s;
 }
 .card .imgBox img{
-position: relative;
-top: 0;
-left: 0;
-z-index: 99;
-width: 100%;
-height: 100%;
-object-fit: cover;
-transform-style: preserve-3d;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
 }
 @media screen and (max-width: 1080px){
     .card{
@@ -568,16 +568,16 @@ transform-style: preserve-3d;
     padding: 10px;
 }
 .project__card button{
-text-align: center;
-color:  whitesmoke;
-border-radius: 10px;
-outline: none;
-border: none;
-font-size: 1rem;
-height: 30px;
-width: 60px;
-background: royalblue;
-justify-content: center;
+    text-align: center;
+    color:  whitesmoke;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    height: 30px;
+    width: 60px;
+    background: royalblue;
+    justify-content: center;
 }
 .project__card button:hover{
     cursor: pointer;

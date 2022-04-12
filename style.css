@@ -612,7 +612,7 @@ height: 60px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 @media screen and (max-width:1475px){
     .projects__c{

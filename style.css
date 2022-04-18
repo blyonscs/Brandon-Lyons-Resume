@@ -608,6 +608,14 @@ height: 60px;
     background-image: url("images/hanoi.png");
     background-position: center;
 }
+#accel{
+    background-image: url("images/accel.png");
+    background-position: center;
+}
+#movie{
+    background-image: url("images/movie.png");
+    background-position: center;
+}
 .figma{
     align-items: center;
     justify-content: center;
@@ -745,4 +753,3 @@ height: 60px;
         padding: 35px 0px 0px 0px;
     }
 }
-
